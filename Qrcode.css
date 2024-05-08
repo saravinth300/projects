@@ -1,0 +1,79 @@
+
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", Helvetica, sans-serif;
+}
+.app-container{
+    width: 100;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.app-container h1{
+    font-weight: 600;
+    font-size: 18px;
+    color: #3498db;
+    border-bottom: 1 px solid #f1efef;
+    padding: 10px opx;
+
+}
+.Qr-code-image{
+     padding: 5px;
+     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+     border-radius: 5px;
+}
+.input-label{
+    display:inline;
+    margin-bottom: 8px;
+    color: #4899cb;
+    font-weight: 500;
+    font-size: 15px;
+}
+input[type="text"]{
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border:2px solid #3485db;
+    border-radius: 5px;
+    width:100%;
+}
+
+button{
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.generate-button{
+    background-color: #3498db;
+}
+
+.generate-button:disabled {
+    background-color: #f1efef;
+    cursor: not-allowed;
+}
+
+.download-button{
+    background-color: #34db69;
+    margin-left: 18px;
+    
+}
+
+.download-button:hover {
+    background-color: #219a52;
+}
+
+
+.Footer{
+    margin-top: 20px;
+    margin-right: 20px;
+    
+}
